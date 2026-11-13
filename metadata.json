@@ -1,0 +1,19 @@
+{
+  "KPlugin": {
+    "Name": "Regras de posicionamento de janelas",
+    "Description": "Define em qual monitor e área de trabalho cada aplicativo deve abrir.",
+    "Icon": "preferences-system-windows",
+    "Authors": [
+      {
+        "Name": "Usuário"
+      }
+    ],
+    "Id": "app-placement-rules",
+    "Version": "1.0",
+    "License": "GPL-3.0-or-later"
+  },
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/main.js",
+  "X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted",
+  "KPackageStructure": "KWin/Script"
+}
