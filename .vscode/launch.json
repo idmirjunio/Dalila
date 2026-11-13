@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Empacotar Dalila (.kwinscript)",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["${workspaceFolder}/scripts/package.sh"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "noDebug": true,
+      "presentation": {
+        "order": 1
+      }
+    },
+    {
+      "name": "Instalar e recarregar Dalila no KWin",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["${workspaceFolder}/scripts/install-direct.sh"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "noDebug": true,
+      "presentation": {
+        "order": 2
+      }
+    }
+  ]
+}

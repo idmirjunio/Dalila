@@ -7,26 +7,18 @@
 
 const RULE_COUNT = 10;
 const handledWindows = new Map();
-const DEFAULT_RULES = [
-    { match: "cadlkienfkclaiaibeoongdcgmdikeeg", monitor: 1, desktop: 0 },
-    { match: "gemini;bard", monitor: 1, desktop: 0 },
-    { match: "whatsapp", monitor: 1, desktop: 0 },
-    { match: "ai.elementlabs.lmstudio;lm studio", monitor: 1, desktop: 2 },
-    { match: "obsidian", monitor: 1, desktop: 4 }
-];
 
 function log(message) {
-    print("[app-placement-rules] " + message);
+    print("[dalila] " + message);
 }
 
 function configuredRules() {
     var rules = [];
     for (var i = 1; i <= RULE_COUNT; i++) {
-        var defaults = DEFAULT_RULES[i - 1] || { match: "", monitor: 0, desktop: 0 };
         rules.push({
-            match: String(readConfig("rule" + i + "Match", defaults.match) || "").toLowerCase(),
-            monitor: Number(readConfig("rule" + i + "Monitor", defaults.monitor)),
-            desktop: Number(readConfig("rule" + i + "Desktop", defaults.desktop))
+            match: String(readConfig("rule" + i + "Match", "") || "").toLowerCase(),
+            monitor: Number(readConfig("rule" + i + "Monitor", 0)),
+            desktop: Number(readConfig("rule" + i + "Desktop", 0))
         });
     }
     return rules;

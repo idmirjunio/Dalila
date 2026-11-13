@@ -4,21 +4,21 @@
       xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
   <kcfgfile name=""/>
   <group name="">
-    <entry name="rule1Match" type="String"><label>Correspondência da janela para regra 1</label><default>cadlkienfkclaiaibeoongdcgmdikeeg</default></entry>
-    <entry name="rule1Monitor" type="Int"><label>Número do monitor da regra 1</label><default>1</default></entry>
+    <entry name="rule1Match" type="String"><label>Correspondência da janela para regra 1</label><default></default></entry>
+    <entry name="rule1Monitor" type="Int"><label>Número do monitor da regra 1</label><default>0</default></entry>
     <entry name="rule1Desktop" type="Int"><label>Área de trabalho da regra 1</label><default>0</default></entry>
-    <entry name="rule2Match" type="String"><label>Correspondência da janela para regra 2</label><default>gemini;bard</default></entry>
-    <entry name="rule2Monitor" type="Int"><label>Número do monitor da regra 2</label><default>1</default></entry>
+    <entry name="rule2Match" type="String"><label>Correspondência da janela para regra 2</label><default></default></entry>
+    <entry name="rule2Monitor" type="Int"><label>Número do monitor da regra 2</label><default>0</default></entry>
     <entry name="rule2Desktop" type="Int"><label>Área de trabalho da regra 2</label><default>0</default></entry>
-    <entry name="rule3Match" type="String"><label>Correspondência da janela para regra 3</label><default>whatsapp</default></entry>
-    <entry name="rule3Monitor" type="Int"><label>Número do monitor da regra 3</label><default>1</default></entry>
+    <entry name="rule3Match" type="String"><label>Correspondência da janela para regra 3</label><default></default></entry>
+    <entry name="rule3Monitor" type="Int"><label>Número do monitor da regra 3</label><default>0</default></entry>
     <entry name="rule3Desktop" type="Int"><label>Área de trabalho da regra 3</label><default>0</default></entry>
-    <entry name="rule4Match" type="String"><label>Correspondência da janela para regra 4</label><default>ai.elementlabs.lmstudio;lm studio</default></entry>
-    <entry name="rule4Monitor" type="Int"><label>Número do monitor da regra 4</label><default>1</default></entry>
-    <entry name="rule4Desktop" type="Int"><label>Área de trabalho da regra 4</label><default>2</default></entry>
-    <entry name="rule5Match" type="String"><label>Correspondência da janela para regra 5</label><default>obsidian</default></entry>
-    <entry name="rule5Monitor" type="Int"><label>Número do monitor da regra 5</label><default>1</default></entry>
-    <entry name="rule5Desktop" type="Int"><label>Área de trabalho da regra 5</label><default>4</default></entry>
+    <entry name="rule4Match" type="String"><label>Correspondência da janela para regra 4</label><default></default></entry>
+    <entry name="rule4Monitor" type="Int"><label>Número do monitor da regra 4</label><default>0</default></entry>
+    <entry name="rule4Desktop" type="Int"><label>Área de trabalho da regra 4</label><default>0</default></entry>
+    <entry name="rule5Match" type="String"><label>Correspondência da janela para regra 5</label><default></default></entry>
+    <entry name="rule5Monitor" type="Int"><label>Número do monitor da regra 5</label><default>0</default></entry>
+    <entry name="rule5Desktop" type="Int"><label>Área de trabalho da regra 5</label><default>0</default></entry>
     <entry name="rule6Match" type="String"><label>Correspondência da janela para regra 6</label><default></default></entry>
     <entry name="rule6Monitor" type="Int"><label>Número do monitor da regra 6</label><default>0</default></entry>
     <entry name="rule6Desktop" type="Int"><label>Área de trabalho da regra 6</label><default>0</default></entry>

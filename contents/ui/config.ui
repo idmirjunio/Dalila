@@ -19,34 +19,34 @@
        <item row="0" column="0"><widget class="QLabel" name="matchHeader"><property name="text"><string>Aplicativo / identificador</string></property></widget></item>
        <item row="0" column="1"><widget class="QLabel" name="monitorHeader"><property name="text"><string>Monitor (0 = manter)</string></property></widget></item>
        <item row="0" column="2"><widget class="QLabel" name="desktopHeader"><property name="text"><string>Área (0 = manter)</string></property></widget></item>
-       <item row="1" column="0"><widget class="QLineEdit" name="kcfg_rule1Match"><property name="placeholderText"><string>ChatGPT</string></property></widget></item>
+       <item row="1" column="0"><widget class="QLineEdit" name="kcfg_rule1Match"><property name="placeholderText"><string>Identificador da janela</string></property></widget></item>
        <item row="1" column="1"><widget class="QSpinBox" name="kcfg_rule1Monitor"><property name="maximum"><number>99</number></property></widget></item>
        <item row="1" column="2"><widget class="QSpinBox" name="kcfg_rule1Desktop"><property name="maximum"><number>99</number></property></widget></item>
-       <item row="2" column="0"><widget class="QLineEdit" name="kcfg_rule2Match"><property name="placeholderText"><string>Gemini</string></property></widget></item>
+       <item row="2" column="0"><widget class="QLineEdit" name="kcfg_rule2Match"><property name="placeholderText"><string>Identificador da janela</string></property></widget></item>
        <item row="2" column="1"><widget class="QSpinBox" name="kcfg_rule2Monitor"><property name="maximum"><number>99</number></property></widget></item>
        <item row="2" column="2"><widget class="QSpinBox" name="kcfg_rule2Desktop"><property name="maximum"><number>99</number></property></widget></item>
-       <item row="3" column="0"><widget class="QLineEdit" name="kcfg_rule3Match"><property name="placeholderText"><string>WhatsApp</string></property></widget></item>
+       <item row="3" column="0"><widget class="QLineEdit" name="kcfg_rule3Match"><property name="placeholderText"><string>Identificador da janela</string></property></widget></item>
        <item row="3" column="1"><widget class="QSpinBox" name="kcfg_rule3Monitor"><property name="maximum"><number>99</number></property></widget></item>
        <item row="3" column="2"><widget class="QSpinBox" name="kcfg_rule3Desktop"><property name="maximum"><number>99</number></property></widget></item>
-       <item row="4" column="0"><widget class="QLineEdit" name="kcfg_rule4Match"><property name="placeholderText"><string>LM Studio</string></property></widget></item>
+       <item row="4" column="0"><widget class="QLineEdit" name="kcfg_rule4Match"><property name="placeholderText"><string>Identificador da janela</string></property></widget></item>
        <item row="4" column="1"><widget class="QSpinBox" name="kcfg_rule4Monitor"><property name="maximum"><number>99</number></property></widget></item>
        <item row="4" column="2"><widget class="QSpinBox" name="kcfg_rule4Desktop"><property name="maximum"><number>99</number></property></widget></item>
-       <item row="5" column="0"><widget class="QLineEdit" name="kcfg_rule5Match"><property name="placeholderText"><string>Obsidian</string></property></widget></item>
+       <item row="5" column="0"><widget class="QLineEdit" name="kcfg_rule5Match"><property name="placeholderText"><string>Identificador da janela</string></property></widget></item>
        <item row="5" column="1"><widget class="QSpinBox" name="kcfg_rule5Monitor"><property name="maximum"><number>99</number></property></widget></item>
        <item row="5" column="2"><widget class="QSpinBox" name="kcfg_rule5Desktop"><property name="maximum"><number>99</number></property></widget></item>
-       <item row="6" column="0"><widget class="QLineEdit" name="kcfg_rule6Match"><property name="placeholderText"><string>Novo aplicativo</string></property></widget></item>
+       <item row="6" column="0"><widget class="QLineEdit" name="kcfg_rule6Match"><property name="placeholderText"><string>Identificador da janela</string></property></widget></item>
        <item row="6" column="1"><widget class="QSpinBox" name="kcfg_rule6Monitor"><property name="maximum"><number>99</number></property></widget></item>
        <item row="6" column="2"><widget class="QSpinBox" name="kcfg_rule6Desktop"><property name="maximum"><number>99</number></property></widget></item>
-       <item row="7" column="0"><widget class="QLineEdit" name="kcfg_rule7Match"><property name="placeholderText"><string>Novo aplicativo</string></property></widget></item>
+       <item row="7" column="0"><widget class="QLineEdit" name="kcfg_rule7Match"><property name="placeholderText"><string>Identificador da janela</string></property></widget></item>
        <item row="7" column="1"><widget class="QSpinBox" name="kcfg_rule7Monitor"><property name="maximum"><number>99</number></property></widget></item>
        <item row="7" column="2"><widget class="QSpinBox" name="kcfg_rule7Desktop"><property name="maximum"><number>99</number></property></widget></item>
-       <item row="8" column="0"><widget class="QLineEdit" name="kcfg_rule8Match"><property name="placeholderText"><string>Novo aplicativo</string></property></widget></item>
+       <item row="8" column="0"><widget class="QLineEdit" name="kcfg_rule8Match"><property name="placeholderText"><string>Identificador da janela</string></property></widget></item>
        <item row="8" column="1"><widget class="QSpinBox" name="kcfg_rule8Monitor"><property name="maximum"><number>99</number></property></widget></item>
        <item row="8" column="2"><widget class="QSpinBox" name="kcfg_rule8Desktop"><property name="maximum"><number>99</number></property></widget></item>
-       <item row="9" column="0"><widget class="QLineEdit" name="kcfg_rule9Match"><property name="placeholderText"><string>Novo aplicativo</string></property></widget></item>
+       <item row="9" column="0"><widget class="QLineEdit" name="kcfg_rule9Match"><property name="placeholderText"><string>Identificador da janela</string></property></widget></item>
        <item row="9" column="1"><widget class="QSpinBox" name="kcfg_rule9Monitor"><property name="maximum"><number>99</number></property></widget></item>
        <item row="9" column="2"><widget class="QSpinBox" name="kcfg_rule9Desktop"><property name="maximum"><number>99</number></property></widget></item>
-       <item row="10" column="0"><widget class="QLineEdit" name="kcfg_rule10Match"><property name="placeholderText"><string>Novo aplicativo</string></property></widget></item>
+       <item row="10" column="0"><widget class="QLineEdit" name="kcfg_rule10Match"><property name="placeholderText"><string>Identificador da janela</string></property></widget></item>
        <item row="10" column="1"><widget class="QSpinBox" name="kcfg_rule10Monitor"><property name="maximum"><number>99</number></property></widget></item>
        <item row="10" column="2"><widget class="QSpinBox" name="kcfg_rule10Desktop"><property name="maximum"><number>99</number></property></widget></item>
       </layout>
