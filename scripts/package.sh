@@ -11,8 +11,9 @@ if ! command -v zip >/dev/null 2>&1; then
 fi
 
 mkdir -p "$OUTPUT_DIR"
-TEMP_FILE="$(mktemp "$OUTPUT_DIR/.Dalila.XXXXXX")"
-trap 'rm -f "$TEMP_FILE"' EXIT
+TEMP_DIR="$(mktemp -d "$OUTPUT_DIR/.Dalila.XXXXXX")"
+TEMP_FILE="$TEMP_DIR/Dalila.kwinscript"
+trap 'rm -f "$TEMP_FILE"; rmdir "$TEMP_DIR"' EXIT
 
 (
     cd "$PROJECT_DIR"
@@ -20,5 +21,4 @@ trap 'rm -f "$TEMP_FILE"' EXIT
 )
 
 mv -f "$TEMP_FILE" "$OUTPUT_FILE"
-trap - EXIT
 echo "Pacote criado: $OUTPUT_FILE"
